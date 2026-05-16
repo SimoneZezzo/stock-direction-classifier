@@ -42,7 +42,7 @@ The moving averages are expressed as ratios rather than raw prices, so that the 
 - **Batch size**: 32
 
 ## Hyperparameter Tuning
-Some experimental models where tested, variating in hyperparameters:
+Some experimental models were tested, variating in hyperparameters:
 
 | Config | Hidden units | LR | Dropout | Batch size | Val Acc |
 |---|---|---|---|---|---|

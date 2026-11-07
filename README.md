@@ -1,9 +1,8 @@
 # Stock Direction Classifier
 A feed forward neural network built with PyTorch that tries to predict whether Apple's (or any company's) stock prices will go up or down the next day.
-> Pssst... spoiler: it does not work
 
 ## Objective
-The goal of this project was to explore whether a simple deep learning model could beat random guessing at predicting daily stock direction, using only technical indicators as input features. Made for fun & giggles.
+The goal of this project was to explore whether a simple deep learning model could beat random guessing at predicting daily stock direction, using only technical indicators as input features.
 
 ## Reproducibility
 All random seeds are fixed (`torch.manual_seed`, `torch.cuda.manual_seed_all`, `np.random.seed` all set to 42, with `cudnn.deterministic = True`). Running the notebook top-to-bottom should produce similar results. Note that results may differ slightly between CPU and GPU runs, or across different versions of PyTorch.
